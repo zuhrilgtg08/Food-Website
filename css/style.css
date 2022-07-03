@@ -512,9 +512,22 @@ header .navbar a:hover {
     top: -120%;
 }
 
+.tampilkan {
+    display: flex;
+    flex: 1 1 30rem;
+    gap: 1.5rem;
+}
 
-
-
+.tampilkan .box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+    padding: 0 5rem;
+    right: -100rem;
+    top: 0;
+    background: var(--merah);
+}
 
 
 /*iki media queris*/
